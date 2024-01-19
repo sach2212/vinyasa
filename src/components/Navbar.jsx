@@ -1,6 +1,7 @@
 import React from 'react'
 import { IoMdCall } from "react-icons/io";
- 
+import { RiMenu2Fill } from "react-icons/ri";
+
 import './navbar.css'
 const Navbar = () => {
   return (
@@ -28,8 +29,9 @@ const Navbar = () => {
                 {/* <a href="" > <IoMdCall /> 9699691949</a> */}
             </div>
 
-
-
+<div className="icons">
+            <RiMenu2Fill  />
+            </div>
         </div>
       </section>
   </>
