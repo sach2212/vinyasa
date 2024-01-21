@@ -1,0 +1,72 @@
+.stay {
+  height: 60vh;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+         rgba(30, 30, 30, 0.6)),
+    url("/images/sun.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: 5rem 0;
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-attachment: fixed;
+ text-align: center;
+}
+
+.stay h2 {
+  color: white;
+  font-size: 5rem;
+ 
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+}
+.stay p {
+  color: white;
+  font-size: 17px;
+  margin: 2rem 1rem;
+}
+.stayimage{
+  /* background-color: rgb(201, 185, 164); */
+  
+  width: 100%;
+ 
+
+} 
+
+ .stayimage .swiper{
+ height: 60vh;
+ width: 40%;
+display: flex;
+background-color: antiquewhite;
+
+}
+.stayimage .swiper .img{
+  background-color: rgb(146, 98, 36);
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* object-position: center; */
+
+
+}
+
+.stay .buttons{
+  margin: 3rem 0;
+}
+
+@media screen  and (max-width:500px) {
+
+  .stay h2 {
+ text-align: center;
+    font-size: 4rem;
+
+  }
+
+
+  .stay {
+    height: 70vh;
+  } 
+}

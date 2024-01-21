@@ -16,13 +16,13 @@
 .about_cont {
   display: flex;
   flex-wrap: wrap;
-  gap: 8rem;
+  gap: 12rem;
 
   justify-content: space-between;
 }
 
 .ab_img {
-  flex: 30rem;
+  flex: 40rem;
   position: relative;
 }
 
@@ -32,11 +32,11 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(59, 59, 59, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .ab_img img {
   width: 100%;
-  height: 55rem;
+  height: 65rem;
   object-fit: cover;
   object-position: center;
   display: block;
@@ -49,6 +49,8 @@
   align-items: flex-start;
   justify-content: space-evenly;
   flex-direction: column;
+
+    align-items: center;
 }
 
 .aboutus h1 {
@@ -65,16 +67,41 @@
   /* margin: 5rem 0; */
 }
 
+.aboutus h2 {
+
+  font-size: 4rem;
+  margin-bottom: 4rem;
+  font-family: "Josefin Slab", serif;
+
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  position: relative;
+}
+
+.aboutus h2::before {
+
+  content: "";
+  position: absolute;
+  top: 1.5rem;
+  left: -4rem;
+  /* transform: translate(-50%,-50%) rotate(45deg); */
+  border-radius: 20rem;
+  width: 3rem;
+  height: 0.2rem;
+  color: black;
+  background-color: #be7f31;
+
+}
+
 .aboutus p {
   font-size: 15.6px;
   color: rgb(0, 0, 0);
   text-align: left;
-
-  letter-spacing: 0.2rem;
-
-  font-family: "Roboto Condensed", sans-serif;
-
+  
+   
   line-height: 2.4rem;
+
+  font-family: 'Montserrat', sans-serif;
 }
 
  .buttons {
@@ -89,8 +116,114 @@
   font-family: "Poppins", serif;
 }
 
+ .aboutus .service{
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+ } 
+ 
+ .aboutus .services1{
+  
+margin: 5rem 0;
+margin-right:4rem ;
+/* background-color: rgb(227, 227, 227); */
+box-shadow: rgba(149, 157, 165, 0.2) 0px 5px  10px;
+
+padding: 2rem  2rem;
+border-radius: 2rem;
+
+text-align: center;
+ }
+   .services1 h3 {
+  font-size: 4.9rem;
+  margin: 1.6rem 0;
+    font-weight: bolder;
+    letter-spacing: .3rem;
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .services1 h6 {
+  font-size: 1.5rem;
+ color: rgb(74, 74, 74);
+
+
+ }
+   .services1 .servicons {
+  font-size: 4.9rem;
+    color: #be7f31;
+ }
+ 
+
+  .discover  {
+  
+  font-weight: bolder;
+   font-family: "Open Sans", sans-serif;
+    color: black;
+
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    letter-spacing: .2rem;
+
+    text-align: center;
+
+  } 
+
+.discover span {
+    
+    color: #be7f31;
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 960px) {
   .aboutus p {
     margin: 3rem 0;
   }
+}
+
+
+
+@media screen and (max-width: 550px) {
+ 
+  .aboutus .service{
+   
+    justify-content: center;
+
+
+     }
+.aboutus .services1{
+   
+   
+margin: 4rem 0;
+margin-right:1rem ;
+
+  width: 30rem;
+
+  padding: 2.9rem   0;
+     }
+
+
+  .aboutus .buttons  {
+margin-top: 2rem;
+text-align: center;
+}
+
+ 
+.aboutus h2{
+   
+
+  letter-spacing: 0;
+  margin-left: 1rem;
+   }
+
+
+
 }

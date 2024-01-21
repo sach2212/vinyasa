@@ -25,7 +25,7 @@ const Navbar = () => {
 
             <div className="booknow">
 
-                <a href="#" class="btn">Book Now</a>
+                <a href="#" class="buttons">Book Now</a>
                 {/* <a href="" > <IoMdCall /> 9699691949</a> */}
             </div>
 

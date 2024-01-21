@@ -3,7 +3,7 @@ import "./Welcome.css";
 
 const Welcome = () => {
   return (
-    <div className="welcome">
+    <div className="welcome">  
       <div className="welcome_cont">
         <div className="maincont">
           <span className="heading">welcome to</span>
@@ -28,7 +28,10 @@ const Welcome = () => {
           <a href=""  className="buttons">check now</a>
         </div>
       </div>
+ 
     </div>
+
+
   );
 };
 

@@ -1,0 +1,90 @@
+
+
+.rooms{
+text-align: center;
+margin: 10rem 0;
+
+padding: 2rem 9%;
+ 
+}
+
+.rooms_cont{
+    
+ display: flex;
+gap: 2rem;
+flex-wrap: wrap;
+}
+.cont1 {
+   
+ flex: 1 1 40rem;
+ margin: 2rem 0;
+ box-shadow: rgba(191, 191, 191, 0.24) 0px -5px 8px;
+padding-bottom: 2rem 0;
+}
+
+.cont1 img  {
+  
+    width: 100%;
+    height: 30rem;
+}
+.cont1 h2{
+  font-size: 2.2rem;
+  margin: 3rem 0;
+  letter-spacing: .3rem;
+  font-family: "Josefin Slab", serif;
+  text-transform: uppercase;
+  
+}
+.cont1 p{
+  font-size: 17px;
+  margin-bottom: 3rem;
+  padding: 0 .5rem;
+}
+
+.cont1 .discover {
+ font-size: 12px;
+ list-style: none;
+ text-decoration: none;
+ color:  black;
+ font-weight: 800;
+ letter-spacing: .2rem;
+     
+}.cont1 .discover span {
+  
+  
+    color: #be7f31;
+    font-weight: bolder;
+}
+
+
+.heading  {
+    font-size: 2.3rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: "Josefin Slab", serif;
+    letter-spacing: 0.2rem;
+    color: #be7f31;
+    /* margin-left: 6rem; */
+    letter-spacing: 0.3rem;
+    margin-bottom: 3rem;
+}
+
+
+@media screen and (max-width:550px) {
+   
+    
+    
+.rooms{
+    text-align: center;
+    
+    
+    padding: 0 5%;
+    
+    }
+
+
+    .cont1{
+        margin: 5rem 0;
+    }
+
+}

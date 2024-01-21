@@ -31,6 +31,8 @@ const Hero = () => {
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
       >
+
+        
         <SwiperSlide className="SwiperSlide">
           <div className="content">
             <h1>Welcome to our store!</h1>
