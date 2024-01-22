@@ -1,6 +1,8 @@
 import React from 'react'
 import { IoMdCall } from "react-icons/io";
 import { RiMenu2Fill } from "react-icons/ri";
+import contact from "./../components/page/contact"
+import { Link } from 'react-router-dom';
 
 import './navbar.css'
 const Navbar = () => {
@@ -16,10 +18,13 @@ const Navbar = () => {
             </div>
             <div className="menu">
                 <ul>
-                    <li>home</li>
-                    <li>contact</li>
-                    <li>about</li>
-                    <li>blog</li>
+                   
+                <li>  <Link to = "/home">home</Link>    </li>
+                <li>  <Link to = "/contact">contact</Link>    </li>
+                <li>  <Link to = "/about">about</Link>    </li>
+                <li>  <Link to = "/about">gallery</Link>    </li>
+         
+                    
                 </ul>
             </div>
 
