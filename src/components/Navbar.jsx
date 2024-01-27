@@ -34,7 +34,7 @@ const Navbar = () => {
               </li>
               <li>
                 {" "}
-                {/* <Link to="/contact">contact</Link>{" "} */}
+                <Link to="/contact">contact</Link>{" "}
               </li>  
               
               <li>
@@ -74,7 +74,7 @@ const Navbar = () => {
               </li>
               <li>
                 {" "}
-                {/* <Link to="/contact">contact</Link>{" "} */}
+                <Link to="/contact">contact</Link>{" "}
               </li>  
               
               <li>
