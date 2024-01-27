@@ -37,7 +37,7 @@ const About = () => {
 
           <div className="content1">
 
-      <h2>our vision</h2>
+      <h2 className="heading">our vision</h2>
 
             <p>
               Welcome to vinyasa residency, where comfort meets affordability in

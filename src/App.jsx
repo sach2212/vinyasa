@@ -9,8 +9,8 @@ import Stay from "./components/stay/stay"
 import Rooms from "./components/rooms/rooms"
 import Reviews from "./components/Reviews/Reviews"
 import Footer from "./components/Footer/Footer"
-
-
+import Services from "./components/services/sevices"
+ 
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -20,11 +20,14 @@ function App() {
       
      <Navbar/>
      <Hero/>
+  
      <Welcome/>
+     <Services/>
      <About/>
      <Stay/>
      <Rooms/>
      <Reviews/>
+ 
      <Footer/>
  
     </>

@@ -26,10 +26,10 @@ const Reviews = () => {
             effect={"fade"}
           
             pagination={{ clickable: true }}
-            // autoplay={{
-            //     delay: 1500,
-            //     disableOnInteraction: false,
-            //   }}
+            autoplay={{
+                delay: 1300,
+                disableOnInteraction: false,
+              }}
             speed={500}
             loop={true}
             slidesPerView={1}

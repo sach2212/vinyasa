@@ -33,11 +33,13 @@ html {
   /* flex-wrap: wrap; */
   justify-content: space-between;
   /* height: 6rem; */
-  padding: 2rem 9%;
+  padding: 3rem 9%;
   z-index: 100;
   width: 100%;
-  border-bottom: 2px solid #d8d8d8;
+  /* border-bottom: 2px solid #d8d8d8; */
 }
+ 
+  
 
 .header .menu ul {
   display: flex;
@@ -50,7 +52,19 @@ html {
   font-size: 18px;
   padding: 0 0.8rem;
   color: rgb(0, 0, 0);
+
 }
+
+.header .menu ul li a {
+  
+  list-style: none;
+  text-decoration: none;
+  color: #000000;
+}
+.header .menu ul li a:hover {
+ color: #be7f31;
+}
+
 
 .header .logo h1 {
   font-size: 3rem;
@@ -87,12 +101,74 @@ html {
 .icons {
   display: none;
 }
+ 
+.mobile_menu{
+  display: none;
+}
+
+
 
 @media screen and (max-width: 970px) {
-  .menu {
+  
+  .menu{
     display: none;
   }
+  .mobile_menu {
+    display: block;
+    display: flex;
 
+    align-items: center;
+    justify-content: center;
+  }
+  .mobile_menu {
+    display: flex;
+    position: absolute;
+    top: -70rem;
+    right: 0Px;
+    transition: 0.5s;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0 20px;
+
+    z-index: 10000;
+  
+  }
+
+  .active {
+    top: 0rem;
+    font-size: 4rem;
+  }
+  .mobile_ul li {
+    display: flex;
+
+    /* background-color: antiquewhite; */
+    padding: 1rem 1rem;
+    
+    text-transform: uppercase;
+    width: 90vw;
+    border-bottom: 1px solid rgb(143, 139, 139);
+    margin: 4rem 0;
+    font-family: "Poppins", sans-serif;
+    color: #be7f31;
+    list-style:none;
+    text-decoration: none;
+   
+  }
+
+  .mobile_ul li a{
+    font-size: 2.6rem;
+    list-style: none;
+    color: rgb(69, 69, 69);
+    font-weight: bolder;
+  }
+  .mobile_ul svg{
+    font-size: 20.6rem;
+
+  }
+
+  
   .booknow {
     display: none;
   }
@@ -100,4 +176,7 @@ html {
     display: block;
     font-size: 2.3rem;
   }
+
+
+
 }

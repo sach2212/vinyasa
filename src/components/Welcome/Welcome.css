@@ -17,6 +17,7 @@
   /* height: 50vh; */
   text-align: center;
   margin-top: 10rem;
+  /* margin: 19rem; */
 }
 
 .welcome_cont {
@@ -30,10 +31,10 @@
     
 }
 .welcome_cont p {
-  font-size: 16.6px;
+  font-size: 15.9px;
   color: black;
     
-    text-align: left;
+    text-align: center;
     line-height: 2.5rem;
     margin: 5rem 0;
 }
@@ -62,9 +63,22 @@
 }
 .maincont .buttons{
  
-margin: 20rem 0;
+/* margin: 20rem 0; */
 
 }
 
  
    
+
+@media screen  and  (max-width:540px ) {
+  
+.welcome{
+  padding: 2rem 5%;
+ 
+    margin-top: 19rem;
+  
+
+}
+
+  
+}

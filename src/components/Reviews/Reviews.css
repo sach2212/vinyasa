@@ -3,11 +3,16 @@
   /* height: 100vh; */
 
   /* text-align: center; */
-  padding: 2rem 9%;
-  background-image: url("/images/bg2.jpg");
+  padding: 4rem 9%;
+  background-image: url("/images/bg17.jpg");
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  /* color: aliceblue; */
+  
 }
 .review .heading {
   text-align: center;
@@ -19,6 +24,8 @@
   flex-wrap: wrap;
 
   box-shadow: rgba(136, 136, 136, 0.2) 0px 7px 29px 0px;
+  background-color: rgba(255, 255, 255, 0.6);
+ margin-bottom: 5rem;
 }
 
 .testimonial {

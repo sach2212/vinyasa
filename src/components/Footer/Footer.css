@@ -1,6 +1,125 @@
 .footer{
-    height: 40vh;
+    /* height: 60vh; */
    
- background-color: rgb(61, 61, 61);
+ background-color: rgb(146, 146, 146);
+
+  display: flex;
+  align-items: center;
+  padding: 6rem 9%;
+  justify-content: baseline;
+  background: linear-gradient(90deg, rgba(203,203,203,1) 22%, rgba(255,255,255,1) 50%, rgba(185,185,185,1) 98%);
+  flex-wrap: wrap;
+align-items: center;
+/* text-align: center; */
+}
+
+
+
+
+.footer_head{
+  flex: 1 1 1rem;
+  /* text-align: center; */
+/* align-items:    center ; */
+line-height: 1.5;
+
+
+}
+
+
+.footer_head h1{
+font-size: 4.5rem;
+letter-spacing: .3rem;
+letter-spacing: .3rem;
+text-transform: uppercase;
+font-family: "Josefin Slab", serif;
+}
+.footer_head h1 span{
+ 
+letter-spacing: .3rem;
+letter-spacing: .3rem;
+text-transform: uppercase;
+font-family: "Josefin Slab", serif;
+color: #be7f31;
+}
+
+.footer_cont{
+    flex: 1 1 55rem;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1px solid #be7f31;
+    
+  
+}
+
+.footer_cont h2{
+ 
+    font-size: 2rem;
+    text-transform: uppercase;
+     margin-bottom: 2rem;
+}
+
+.footer_cont p,  .footer_cont p a{
+ 
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem .3rem;
+    cursor:  pointer;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+  .footer_cont p a:hover{
+ 
+   
+    color: #be7f31;
+}
+.footer_cont p .call{
+ 
+   margin: 0 .4rem;
+    /* padding: 1.4rem .3rem; */
+    /* padding-top: .5rem; */
+    /* font-size: 2re; */
+}
+.footer_cont .fo_cont .address{
+ 
+ padding: 0 6rem;
+  
+ width: 32rem;
+ 
+}
+.footer_cont p:hover{
+  color: #be7f31;
+}
+
+
+
+@media screen  and (max-width:540px) {
+  
+.footer_head{
+  
+  margin: 6rem 0;
+}
+
+.footer{
+ 
+  height: none;
+text-align: center;
+}
+
+.footer_cont{
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.fo_cont{
+
+  margin: 2rem 0;
+
+}
+
+
 
 }
