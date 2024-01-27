@@ -1,9 +1,12 @@
 {
+  "homepage": "https://sach2212.github.io/vinyasa/",
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "start": "vite",
@@ -17,8 +20,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
     "react-router-dom": "^6.21.3",
-    "swiper": "^11.0.5",
-    
+    "swiper": "^11.0.5" 
 
   },
   "devDependencies": {
